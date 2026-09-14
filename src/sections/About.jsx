@@ -80,7 +80,7 @@ export default function About() {
           </div>
           <div>
             <span className="text-2xl font-bold font-mono text-white">Certified</span>
-            <p className="text-xs text-slate-400 font-mono">Azure AI & AWS Architect[cite: 3, 4]</p>
+            <p className="text-xs text-slate-400 font-mono">Azure AI & AWS Architectgit add .</p>
           </div>
         </div>
 
