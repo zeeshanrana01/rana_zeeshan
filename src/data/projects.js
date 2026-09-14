@@ -1,0 +1,6 @@
+export const projectPlaceholders = [
+  { id: "project-01", title: "[Project Name: E-Commerce Web Solution]", description: "Configurable placeholder for responsive e-commerce websites built for local/international clients with item listings, store layout, and cart experience.", technologies: ["React.js", "JavaScript", "CSS"], githubUrl: "#", liveUrl: "#", badge: "E-Commerce" },
+  { id: "project-02", title: "[Project Name: Business Profile Platform]", description: "Configurable placeholder for corporate business profile websites providing informative brand portfolios and mobile-first responsive architecture.", technologies: ["WordPress", "HTML", "Bootstrap"], githubUrl: "#", liveUrl: "#", badge: "Business Website" },
+  { id: "project-03", title: "[Project Name: Customized Client Portfolio]", description: "Configurable placeholder for customized modern portfolio websites designed for individual clients and professionals.", technologies: ["HTML", "CSS", "JavaScript"], githubUrl: "#", liveUrl: "#", badge: "Portfolio" },
+  { id: "project-04", title: "[Project Name: Tech Support Management Portal]", description: "Configurable placeholder for office IT support, computer hardware cataloging, and infrastructure troubleshooting documentation.", technologies: ["React.js", "Networking", "Hardware Support"], githubUrl: "#", liveUrl: "#", badge: "IT Support" }
+];

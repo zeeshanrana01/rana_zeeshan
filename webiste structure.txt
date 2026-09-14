@@ -1,0 +1,55 @@
+rana-zeeshan-portfolio/
+│
+├── public/
+│   ├── favicon.svg
+│   ├── resume/
+│   │   └── Rana-Zeeshan-Resume.pdf
+│   └── images/
+│       ├── profile.jpg
+│       ├── project-01.jpg
+│       ├── project-02.jpg
+│       └── project-03.jpg
+│
+├── src/
+│   ├── app/
+│   │   ├── layout.jsx            <-- Root layout, fonts, metadata (SEO)
+│   │   ├── page.jsx              <-- Main home page (tamam sections yahan render honge)
+│   │   └── globals.css           <-- Tailwind + Custom CSS
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── CustomCursor.jsx
+│   │   ├── Button.jsx
+│   │   ├── SectionTitle.jsx
+│   │   ├── ScrollProgress.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── sections/
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Education.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Services.jsx
+│   │   ├── Resume.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── data/
+│   │   ├── personal.js
+│   │   ├── skills.js
+│   │   ├── experience.js
+│   │   ├── education.js
+│   │   ├── services.js
+│   │   └── projects.js
+│   │
+│   └── hooks/
+│       ├── useScroll.js
+│       └── useMousePosition.js
+│
+├── .gitignore
+├── next.config.mjs
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.mjs
+└── README.md
