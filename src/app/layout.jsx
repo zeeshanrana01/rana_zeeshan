@@ -5,6 +5,7 @@ import ScrollProgress from '../components/ScrollProgress';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ARBackground from '../components/ARBackground'; // <-- Added here
+import FloatingWhatsApp from '../components/FloatingWhatsApp';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap' });
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono', display: 'swap' });
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="relative z-10">{children}</main>
         <Footer />
+        <FloatingWhatsApp />
       </body>
     </html>
   );
