@@ -1,14 +1,21 @@
 export const personalInfo = {
   name: "Rana Zeeshan",
-  title: "AI Engineer | Azure AI Agents & Cloud Architect",
+  title: "AI Engineer | Generative AI | Agentic AI | Cloud & AI Applications",
   phone: "+92-3074132838",
   email: "zeeshanrana2014@gmail.com",
   location: "Changa Manga, Tehsil Pattoki, Punjab, Pakistan",
   summary: [
-    "Certified Azure AI Apps & Agents Developer and AWS Solutions Architect with hands-on experience engineering scalable cloud systems and autonomous AI solutions.",
-    "Specializing in building Agentic AI workflows, LLM applications, API integrations, and cloud infrastructure alongside full-stack responsive web systems.",
-    "Driven by solving complex technical problems through continuous learning and deploying resilient, production-ready cloud architectures.",
+    "Computer Science professional with an MS in Computer Science and a practical focus on Artificial Intelligence, Generative AI, Agentic AI, and AI engineering.",
+    "Experienced in developing AI-powered applications using Python, LLMs, RAG pipelines, local model inference, computer vision, and real-time voice AI.",
+    "Certified Microsoft Azure AI Apps and Agents Developer Associate and AWS Certified Solutions Architect – Associate with strong hands-on experience across LangChain, Ollama, LiveKit, OpenCV, YOLO, Next.js, and cloud ecosystems."
   ],
+  targetRoles: [
+    "AI Engineer",
+    "Generative AI Engineer",
+    "Software Engineer",
+    "AI Application Developer"
+  ],
+  languages: ["English", "Urdu", "Punjabi", "Korean"],
   interests: [
     {
       title: "Agentic AI & LLMs",
@@ -25,7 +32,7 @@ export const personalInfo = {
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/rana-zeeshan-ai/",
-    github: "#",
+    github: "https://github.com/zeeshanrana01",
   },
   resumePath: "/resume/Rana-Zeeshan-Resume.pdf",
 };

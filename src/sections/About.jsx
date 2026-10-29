@@ -35,7 +35,7 @@ export default function About() {
       tagline: 'Enterprise-Grade Resilient & High-Performing Cloud Infrastructures',
       description: 'AWS Certified Solutions Architect with proven competency in architecting secure, decoupled, and cost-optimized distributed systems. Experienced in cloud storage lifecycle, VPC networking, fault-tolerant compute, and resilient deployment pipelines.',
       techStack: ['VPC & Cloud Networking', 'Decoupled Systems', 'Cost Optimization', 'High Availability', 'IAM & Security', 'AWS S3 & EC2'],
-      metrics: '874 / 1000 Exam Score[cite: 2]'
+      metrics: '874 / 1000 Exam Score'
     },
     {
       id: 'web',

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { ArrowRight, FileText, Mail, Phone, MapPin, Linkedin, ShieldCheck } from 'lucide-react';
+import { ArrowRight, FileText, Mail, Phone, MapPin, Linkedin, ShieldCheck, Eye } from 'lucide-react';
 import Button from '../components/Button';
 import { personalInfo } from '../data/personal';
 
@@ -35,14 +35,19 @@ export default function Hero() {
               <ArrowRight className="w-4 h-4" />
             </Button>
 
-            <Button href={personalInfo.social?.linkedin} target="_blank" variant="outline">
-              <Linkedin className="w-4 h-4 text-blue-400" />
-              <span>LinkedIn Profile</span>
+            <Button href={personalInfo.resumePath} target="_blank" variant="outline">
+              <Eye className="w-4 h-4 text-brand-400" />
+              <span>Watch / View CV</span>
             </Button>
 
             <Button href={personalInfo.resumePath} download="Rana-Zeeshan-Resume.pdf" variant="outline">
-              <FileText className="w-4 h-4 text-brand-400" />
+              <FileText className="w-4 h-4 text-slate-300" />
               <span>Download CV</span>
+            </Button>
+
+            <Button href={personalInfo.social?.linkedin} target="_blank" variant="outline">
+              <Linkedin className="w-4 h-4 text-blue-400" />
+              <span>LinkedIn</span>
             </Button>
           </div>
 

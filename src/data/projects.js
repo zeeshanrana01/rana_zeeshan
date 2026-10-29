@@ -1,6 +1,29 @@
 export const projectPlaceholders = [
-  { id: "project-01", title: "[Project Name: E-Commerce Web Solution]", description: "Configurable placeholder for responsive e-commerce websites built for local/international clients with item listings, store layout, and cart experience.", technologies: ["React.js", "JavaScript", "CSS"], githubUrl: "#", liveUrl: "#", badge: "E-Commerce" },
-  { id: "project-02", title: "[Project Name: Business Profile Platform]", description: "Configurable placeholder for corporate business profile websites providing informative brand portfolios and mobile-first responsive architecture.", technologies: ["WordPress", "HTML", "Bootstrap"], githubUrl: "#", liveUrl: "#", badge: "Business Website" },
-  { id: "project-03", title: "[Project Name: Customized Client Portfolio]", description: "Configurable placeholder for customized modern portfolio websites designed for individual clients and professionals.", technologies: ["HTML", "CSS", "JavaScript"], githubUrl: "#", liveUrl: "#", badge: "Portfolio" },
-  { id: "project-04", title: "[Project Name: Tech Support Management Portal]", description: "Configurable placeholder for office IT support, computer hardware cataloging, and infrastructure troubleshooting documentation.", technologies: ["React.js", "Networking", "Hardware Support"], githubUrl: "#", liveUrl: "#", badge: "IT Support" }
+  {
+    id: "vision-ai-detection",
+    title: "Vision AI Object Detection System",
+    description: "Developed a real-time computer vision application using YOLO and OpenCV for image and video-stream processing. Implemented confidence filtering and multi-class detection to support reliable object recognition and optimized inference.",
+    technologies: ["Python", "YOLO", "OpenCV", "Computer Vision", "Real-Time Inference"],
+    githubUrl: "https://github.com/zeeshanrana01",
+    liveUrl: "#",
+    badge: "Computer Vision"
+  },
+  {
+    id: "local-rag-chatbot",
+    title: "Local RAG Knowledge Chatbot",
+    description: "Built a privacy-focused knowledge chatbot using Ollama and LangChain. Implemented semantic vector retrieval for document-grounded responses, prompt optimization, and local LLM inference to reduce dependence on external model APIs.",
+    technologies: ["Python", "LangChain", "Ollama", "RAG Architecture", "Vector Embeddings"],
+    githubUrl: "https://github.com/zeeshanrana01",
+    liveUrl: "#",
+    badge: "Agentic & GenAI"
+  },
+  {
+    id: "realtime-voice-agent",
+    title: "Real-Time Voice AI Agent",
+    description: "Architected a real-time conversational voice agent integrating Speech-to-Text (STT), LLM reasoning, and Text-to-Speech (TTS). Used LiveKit room sessions for low-latency bidirectional audio streaming and responsive agent interactions.",
+    technologies: ["Python", "LiveKit", "STT / TTS", "LLM Reasoning", "WebSockets"],
+    githubUrl: "https://github.com/zeeshanrana01",
+    liveUrl: "#",
+    badge: "Voice AI"
+  }
 ];
